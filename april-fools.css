@@ -1,0 +1,57 @@
+/* ======== ALL APRIL FOOLS' CSS BELOW ======== */
+
+/* My Addon: Change Everyone's Username to BALLCHASER */
+.author  {  
+    visibility: hidden;
+    text-indent: 20px;
+    font-size: 0px;
+}
+
+.author[href*="/user/"]:before { 
+    content:"BALLCHASER"; 
+    font-size:12px !important; 
+    visibility: visible;
+}
+/* End Addon */
+
+/* My Addon: Tilt Everything to the Right */
+body {
+    transform: rotate(1.2deg)
+}
+/* End Addon */
+
+/* My Addon: Add a Dead Pixel to the Top Left of the Logo */
+.side [href*="#deadpixel"]:before {
+  display: block;
+  width: 1px;
+  height: 1px;
+  background-color: #ffffff;
+  margin: 0px;
+  content: "";
+  position: fixed;
+  top: 45px;
+  left: 380px;
+  z-index: 99;
+}
+/* End Addon */
+
+/* My Addon: Make Everything Comic Sans Because We're Masochists */
+* {
+    font-family: 'Comic Sans MS' !important;
+}
+/* End Addon */
+
+/* My Addon: Make the Upvote Arrow Upside Down in Place of the Downvote*/
+.sitetable .link .midcol {
+    transform: rotate(180deg);
+}
+.sitetable .link .midcol .score {
+    transform: rotate(180deg);
+}
+/* End Addon */
+
+/* My Addon: Make the Cursor Give You the Finger When you Hover Over Links*/
+a {
+    cursor: url(%%cursor%%), auto !important;
+}
+/* End Addon */
