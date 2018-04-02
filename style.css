@@ -180,6 +180,12 @@ div.titlebox span.number:after {
     border: #1f1f1f;
     color: #ab0ecf;
 }
+
+.flair.flair-schwifty {
+    background: #1f1f1f;
+    border: #1f1f1f;
+    color: #76a5af;
+}
 /* End Addon */
 
 /* My Addon: Remove Hyphen Before Flair */
