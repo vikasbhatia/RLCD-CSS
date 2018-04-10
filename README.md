@@ -71,7 +71,7 @@ Where `<name>` is the name you gave your class in step 2, and `<colour>` is the 
 
 ## Contributing
 
-Pull requests are welcome. If you've got ideas or feature requests, please feel free to create an issue on this repo.
+Pull requests are welcome! If you've got ideas or feature requests, please feel free to create an issue on this repo.
 
 [<sub><sup>Back to top</sup></sub>](#rlcustomdesigns-css)
 
