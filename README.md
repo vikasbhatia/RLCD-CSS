@@ -54,7 +54,7 @@ You must be a moderator to be able to edit CSS.
 Where `<name>` is the name you gave your class in step 2, and `<colour>` is the colour of the text you want. Example:
 
  <p align="center">
-<img width="350" alt="Edit Flair" src="https://user-images.githubusercontent.com/11446387/38540192-bc29284a-3cb8-11e8-91f2-e92a410c055b.png">
+<img width="500" alt="Edit Flair" src="https://user-images.githubusercontent.com/11446387/38540192-bc29284a-3cb8-11e8-91f2-e92a410c055b.png">
 </p>
 
 <p align="center">
