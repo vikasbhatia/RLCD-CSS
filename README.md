@@ -1,7 +1,7 @@
 <h1 align="center">RLCustomDesigns CSS</h1>
 
 <p align="center">
-CSS theme for the r/RLCustomDesigns subreddit.
+CSS theme for <a href="https://reddit.com/r/RLCustomDesigns">r/RLCustomDesigns</a>.
 </p>
 
 <p align="center">
