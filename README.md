@@ -11,7 +11,6 @@ CSS theme for <a href="https://reddit.com/r/RLCustomDesigns">r/RLCustomDesigns</
 <h4 align="center">
   <a href="#features">Features</a> •
   <a href="#getting-started">Getting Started</a> •
-  <a href="#usage">Usage</a> •
   <a href="#references">References</a> •
   <a href="#contributing">Contributing</a> •
   <a href="#known-limitations">Known Limitations</a> •
