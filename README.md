@@ -26,7 +26,7 @@ Based on Naut (see [r/Naut](reddit.com/r/Naut) for more details).
 * Subreddit link in the logo.
 * Rocket League quick chat upvote animation.
 
-[<sub><sup>Back to top</sup></sub>](#top)
+[<sub><sup>Back to top</sup></sub>](#rlcustomdesigns-css)
 
 ## Getting Started
 
@@ -63,7 +63,7 @@ Where `<name>` is the name you gave your class in step 2, and `<colour>` is the 
 </p>
 
 
-[<sub><sup>Back to top</sup></sub>](#top)
+[<sub><sup>Back to top</sup></sub>](#rlcustomdesigns-css)
 
 ## References
 
