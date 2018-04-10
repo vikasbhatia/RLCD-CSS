@@ -78,7 +78,7 @@ Pull requests are welcome. If you've got ideas or feature requests, please feel 
 * For a logged-out user, the login form on the sidebar doesn't work since the margin makes it overlap with the "Submissions restricted" text above it. If this margin is increased to prevent the overlap, the form looks awkward on other logged-out pages.
 
 
-## Acknowledgments
+## Acknowledgements
 
 * **u/GetSchwiftyClub** for help with testing.
 * **u/DBaum1** for help with testing.
