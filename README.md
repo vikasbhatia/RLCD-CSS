@@ -11,9 +11,9 @@ CSS theme for <a href="https://reddit.com/r/RLCustomDesigns">r/RLCustomDesigns</
 <h4 align="center">
   <a href="#features">Features</a> •
   <a href="#getting-started">Getting Started</a> •
-  <a href="#references">References</a> •
-  <a href="#contributing">Contributing</a> •
   <a href="#known-limitations">Known Limitations</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#references">References</a> •
   <a href="#acknowledgements">Acknowledgements</a>
 </h4>
 
@@ -61,6 +61,17 @@ Where `<name>` is the name you gave your class in step 2, and `<colour>` is the 
 <img width="184" alt="Text Flair CSS Classes" src="https://user-images.githubusercontent.com/11446387/38539681-c819d106-3cb6-11e8-87f7-cdac32fab495.png">
 </p>
 
+[<sub><sup>Back to top</sup></sub>](#rlcustomdesigns-css)
+
+## Known Limitations
+
+* For a logged-out user, the login form on the sidebar doesn't work since the margin makes it overlap with the "Submissions restricted" text above it. If this margin is increased to prevent the overlap, the form looks awkward on other logged-out pages.
+
+[<sub><sup>Back to top</sup></sub>](#rlcustomdesigns-css)
+
+## Contributing
+
+Pull requests are welcome. If you've got ideas or feature requests, please feel free to create an issue on this repo.
 
 [<sub><sup>Back to top</sup></sub>](#rlcustomdesigns-css)
 
@@ -69,18 +80,14 @@ Where `<name>` is the name you gave your class in step 2, and `<colour>` is the 
 * [r/Naut](https://www.reddit.com/r/naut/)
 * [Dead Pixel](https://www.reddit.com/r/csshelp/comments/3113sm/what_is_the_best_april_fools_prank_for_css/cpxp1np/)
 
-## Contributing
-
-Pull requests are welcome. If you've got ideas or feature requests, please feel free to create an issue on this repo.
-
-## Known Limitations
-
-* For a logged-out user, the login form on the sidebar doesn't work since the margin makes it overlap with the "Submissions restricted" text above it. If this margin is increased to prevent the overlap, the form looks awkward on other logged-out pages.
-
+[<sub><sup>Back to top</sup></sub>](#rlcustomdesigns-css)
 
 ## Acknowledgements
 
 * **u/GetSchwiftyClub** for help with testing.
 * **u/DBaum1** for help with testing.
+* [**r/RocketLeague**](https://reddit.com/r/RocketLeague) for the upvote quick chat animation CSS.
+
+[<sub><sup>Back to top</sup></sub>](#rlcustomdesigns-css)
 
 **Last Updated: 10 April 2018**
