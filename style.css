@@ -1,8 +1,8 @@
 /*
-    RLCustomDesigns Stylesheet 1.2
+    RLCustomDesigns Stylesheet 1.2.1
     Stylesheet by /u/SidewinderN7
     Based on Naut 4.2
-    Last modified: 2 April 2018
+    Last modified: 6 Oct 2018
 -------------------------------------------------------------------------- */
 
 /*
@@ -646,5 +646,15 @@ f .thing[data-fullname$="a"]>.midcol>.upmod:focus::after {
     margin-left: 0px!important;
     margin-right: 0px!important;
     margin-bottom: 16px!important;
+}
+/* End Addon */
+
+/* My Addon: Hide the "choose where to post", "options", and disclaimers boxes the submit page*/
+.submit-page #reddit-field, #items-required {
+    display: none;
+}
+
+.submit-page .info-notice {
+    display: none;
 }
 /* End Addon */
