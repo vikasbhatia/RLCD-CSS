@@ -1,8 +1,8 @@
 /*
-    RLCustomDesigns Stylesheet 1.2.1
+    RLCustomDesigns Stylesheet 1.2.2
     Stylesheet by /u/SidewinderN7
     Based on Naut 4.2
-    Last modified: 6 Oct 2018
+    Last modified: 17 Nov 2018
 -------------------------------------------------------------------------- */
 
 /*
@@ -185,6 +185,12 @@ div.titlebox span.number:after {
     background: #1f1f1f;
     border: #1f1f1f;
     color: #76a5af;
+}
+
+.flair.flair-zeranoe {
+    background: #1f1f1f;
+    border: #1f1f1f;
+    color: #00ffff;
 }
 /* End Addon */
 
