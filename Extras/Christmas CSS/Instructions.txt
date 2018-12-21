@@ -1,0 +1,7 @@
+Upload the "snow-dense.png" and "snow-sparse-flipped.png" images on the stylesheet page (don't change their names), paste the CSS add-on, and add the following at the bottom of the sidebar text:
+
+> [](#snow)
+> 
+> [](#snow)
+> 
+> [](#snow)
