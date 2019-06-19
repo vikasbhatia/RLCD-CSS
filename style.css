@@ -1,8 +1,8 @@
 /*
-    RLCustomDesigns Stylesheet 1.2.2
+    RLCustomDesigns Stylesheet 1.2.3
     Stylesheet by /u/SidewinderN7
     Based on Naut 4.2
-    Last modified: 17 Nov 2018
+    Last modified: 20 June 2019
 -------------------------------------------------------------------------- */
 
 /*
@@ -655,12 +655,18 @@ f .thing[data-fullname$="a"]>.midcol>.upmod:focus::after {
 }
 /* End Addon */
 
-/* My Addon: Hide the "choose where to post", "options", and disclaimers boxes the submit page*/
+/* My Addon: Hide the "choose where to post", "options", and disclaimers boxes the submit page */
 .submit-page #reddit-field, #items-required {
     display: none;
 }
 
 .submit-page .info-notice {
     display: none;
+}
+/* End Addon */
+
+/* My Addon: Hide the Events and Collections promo box on the submit page */
+#evts-colls-promo-js {
+    display: none !important;
 }
 /* End Addon */
