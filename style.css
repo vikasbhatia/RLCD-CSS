@@ -1,8 +1,8 @@
 /*
-    RLCustomDesigns Stylesheet 1.2.3
+    RLCustomDesigns Stylesheet 1.2.4
     Stylesheet by /u/SidewinderN7
     Based on Naut 4.2
-    Last modified: 20 June 2019
+    Last modified: 1 August 2019
 -------------------------------------------------------------------------- */
 
 /*
@@ -670,3 +670,11 @@ f .thing[data-fullname$="a"]>.midcol>.upmod:focus::after {
     display: none !important;
 }
 /* End Addon */
+
+/* My Addon: Hide new reddit's button in the top header menu and the sidebar banner ad */
+/* DEACTIVATED: potentially against the rules, see https://redd.it/7jp4nq */
+/*
+.redesign-beta-optin, .premium-banner-outer {
+    display: none;
+}
+*/

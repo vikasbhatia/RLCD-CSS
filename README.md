@@ -90,4 +90,4 @@ Pull requests are welcome! If you've got ideas or feature requests, please feel 
 
 [<sub><sup>Back to top</sup></sub>](#rlcustomdesigns-css)
 
-**Last Updated: 20 June 2019**
+**Last Updated: 1 August 2019**
