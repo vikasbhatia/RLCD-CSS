@@ -1,8 +1,8 @@
 /*
-    RLCustomDesigns Stylesheet 1.2.4
+    RLCustomDesigns Stylesheet 2.0
     Stylesheet by /u/SidewinderN7
     Based on Naut 4.2
-    Last modified: 1 August 2019
+    Last modified: 22 November 2019
 -------------------------------------------------------------------------- */
 
 /*
@@ -25,77 +25,77 @@ body {
     background-color: #151515;
 }
 
-    /* Card Color */
-    #ad_main, #images, #search #searchexpando, .account-activity-box, .combined-search-page > .content, .commentarea > .sitetable > .comment, .comments-page .link .usertext .md, .comments-page .link, .comments-page .side .linkinfo, .content.submit .info-notice, .drop-choices a.choice, .hover-bubble, .hover-bubble.multi-selector label:hover, .linefield, .linefield.mobile, .linefield.mobile, .listing-page .comment, .login-form-side, .modal-body, .reddit-infobar, .side .sidecontentbox, .side .titlebox, .sidebox.create .morelink a, .sponsorshipbox, .stylesheet-customize-container .pretty-form, .submit-page .roundfield, .subreddit-report-form .report-reason-other input[type=text], .titlebox form.toggle, .usertext.border .usertext-body, .wiki-page .pageactions, .wiki-page .wiki-page-content, .wiki-page .wikititle, body .content .thing.spam, body.listing-page > .content, select, .hover-bubble.multi-selector .create-multi input[type="text"], #previoussearch #moresearchinfo, .res #REScommentNavToggle, .RESSubscriptionButton, #userTaggerClose, .RESDialogSmall, .RESCloseButton, body.other-discussions-page > .content, .linkinfo, .read-next.fixed, .organic-listing .link, .organic-listing .link.compressed, .organic-listing .link.promotedlink, #ad-frame, #ad_main, #ad_main_top, .admin_takedown, .drop-choices.lightdrop, .leavemoderator {
-        background-color: #222;
-    }
+/* Card Color */
+#ad_main, #images, #search #searchexpando, .account-activity-box, .combined-search-page > .content, .commentarea > .sitetable > .comment, .comments-page .link .usertext .md, .comments-page .link, .comments-page .side .linkinfo, .content.submit .info-notice, .drop-choices a.choice, .hover-bubble, .hover-bubble.multi-selector label:hover, .linefield, .linefield.mobile, .linefield.mobile, .listing-page .comment, .login-form-side, .modal-body, .reddit-infobar, .side .sidecontentbox, .side .titlebox, .sidebox.create .morelink a, .sponsorshipbox, .stylesheet-customize-container .pretty-form, .submit-page .roundfield, .subreddit-report-form .report-reason-other input[type=text], .titlebox form.toggle, .usertext.border .usertext-body, .wiki-page .pageactions, .wiki-page .wiki-page-content, .wiki-page .wikititle, body .content .thing.spam, body.listing-page > .content, select, .hover-bubble.multi-selector .create-multi input[type="text"], #previoussearch #moresearchinfo, .res #REScommentNavToggle, .RESSubscriptionButton, #userTaggerClose, .RESDialogSmall, .RESCloseButton, body.other-discussions-page > .content, .linkinfo, .read-next.fixed, .organic-listing .link, .organic-listing .link.compressed, .organic-listing .link.promotedlink, #ad-frame, #ad_main, #ad_main_top, .admin_takedown, .drop-choices.lightdrop, .leavemoderator {
+    background-color: #222;
+}
 
-    /* Secondary Card Color */
-    #search input[type=text], .c-form-control, .comment.spam > .child, .commentarea > .usertext, .flairoptionpane ul li .linkflair:hover, .flairselector .flairoptionpane ul li:hover, .flairselector, .gold-accent.comment-visits-box, .gold-wrap.inline-gold .fancy, .hover-bubble.multi-selector, .hover-bubble.save-selector .savedcategory, .link .md pre, .link .md:not(pre) > code, .md blockquote, .md p code, .md pre, .new-comment .md:not(pre) > code, .new-comment .usertext-body, .post-sharing, .reddit-infobar.with-icon, .search-page #previoussearch label, .side .spacer input, .side .titlebox .md h4 a, .subreddit-report-form, .subreddit-rule-item:hover, .subreddit-stylesheet-source, .usertable > .toggle, .usertext .markhelp .spaces, .wiki-page .pageactions .wikiaction-current:hover, .wiki-page .pageactions .wikiaction:hover, .wiki-page .wiki-page-content #wiki_revision_reason, .wiki-page .wiki-page-content .md.wiki h4, body .content input[type=text], body .content input[type=url], body .content textarea, side .spacer input, .link .md :not(pre) > code, #sr-header-area .drop-choices a.choice:hover, .new-comment .md pre, .comment .expand:hover, .side #moderation_tools .title .collapse-button, .usertext.border .md :not(pre) > code, .titlebox .tagline:after, .new-comment .md :not(pre) > code, ul.res-search-tabs a, .RESDialogSmall > h3, #userTaggerToolTip input[type=text], #BigText, ul.report-reasons, .read-next .read-next-header, .diff_header, .diff_next, #newlink-with-image-upload .image-upload-drop-target, .md code, .usertext.border .md pre, .comments-page .side .linkinfo .shortlink input, .action-reason, .side .titlebox .tagline a.flairselectbtn, .leavemoderator a, .author-tooltip__head {
-    background-color: #1B1B1B;
-    }
+/* Secondary Card Color */
+#search input[type=text], .c-form-control, .comment.spam > .child, .commentarea > .usertext, .flairoptionpane ul li .linkflair:hover, .flairselector .flairoptionpane ul li:hover, .flairselector, .gold-accent.comment-visits-box, .gold-wrap.inline-gold .fancy, .hover-bubble.multi-selector, .hover-bubble.save-selector .savedcategory, .link .md pre, .link .md:not(pre) > code, .md blockquote, .md p code, .md pre, .new-comment .md:not(pre) > code, .new-comment .usertext-body, .post-sharing, .reddit-infobar.with-icon, .search-page #previoussearch label, .side .spacer input, .side .titlebox .md h4 a, .subreddit-report-form, .subreddit-rule-item:hover, .subreddit-stylesheet-source, .usertable > .toggle, .usertext .markhelp .spaces, .wiki-page .pageactions .wikiaction-current:hover, .wiki-page .pageactions .wikiaction:hover, .wiki-page .wiki-page-content #wiki_revision_reason, .wiki-page .wiki-page-content .md.wiki h4, body .content input[type=text], body .content input[type=url], body .content textarea, side .spacer input, .link .md :not(pre) > code, #sr-header-area .drop-choices a.choice:hover, .new-comment .md pre, .comment .expand:hover, .side #moderation_tools .title .collapse-button, .usertext.border .md :not(pre) > code, .titlebox .tagline:after, .new-comment .md :not(pre) > code, ul.res-search-tabs a, .RESDialogSmall > h3, #userTaggerToolTip input[type=text], #BigText, ul.report-reasons, .read-next .read-next-header, .diff_header, .diff_next, #newlink-with-image-upload .image-upload-drop-target, .md code, .usertext.border .md pre, .comments-page .side .linkinfo .shortlink input, .action-reason, .side .titlebox .tagline a.flairselectbtn, .leavemoderator a, .author-tooltip__head {
+background-color: #1B1B1B;
+}
 
-	/* Thumbnails */
-	.thumbnail.default, .thumbnail.self, .thumbnail.image {
-    background-color: #424242;
-	}
+/* Thumbnails */
+.thumbnail.default, .thumbnail.self, .thumbnail.image {
+background-color: #424242;
+}
 
-	/* Comment Area */
-	.comments-page .commentarea .comment, .comments-page .commentarea .comment .comment .comment, .comments-page .commentarea .comment .comment .comment .comment .comment, .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment, .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-    background: #222 !important;
-	}
+/* Comment Area */
+.comments-page .commentarea .comment, .comments-page .commentarea .comment .comment .comment, .comments-page .commentarea .comment .comment .comment .comment .comment, .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment, .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+background: #222 !important;
+}
 
-    .comments-page .commentarea .comment .comment, .comments-page .commentarea .comment .comment .comment .comment, .comments-page .commentarea .comment .comment .comment .comment .comment .comment, .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment .comment, .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-        background-color: #1B1B1B !important;
-    }
-
-	/* Border Color */
-	#img-preview-container, #sr-header-area .drop-choices a.choice, .c-form-control, .comment .child, .comments-page .link .usertext .md, .drop-choices a.choice, .drop-choices a.choice, .dropdown.lightdrop .selected, .expando-button, .expando-button.image, .expando-button.selftext.collapsed, .expando-button.selftext.expanded, .expando-button.video.collapsed, .expando-button.video.expanded, .flairselector form, .flairselector.drop-choices.active, .gold-accent.comment-visits-box, .gold-wrap.inline-gold .fancy, .gold-wrap.inline-gold .fancy-inner, .hover-bubble, .hover-bubble.save-selector .savedcategory, .linefield.mobile, .link .md pre, .link .md:not(pre) > code, .login-form-side, .md p code, .md pre, .md td, .md th, .menuarea, .nav-buttons .nextprev a, .nav-buttons .nextprev, .new-comment .usertext-body, .post-sharing, .reddit-infobar, .res .RES-keyNav-activeElement, .side .spacer input, .subreddit-report-form, .usertable > .toggle, .usertext .markhelp td, .usertext .markhelp, .wiki-page .wiki-page-content #wiki_revision_reason, .wiki-page .wiki-page-content .wiki > .toc > ul ul, .wiki-page .wiki-page-content hr, body .content input[type=text], body .content input[type=url], body .content textarea, select, side .spacer input, ul.report-reasons, .hover-bubble.multi-selector .create-multi input[type="text"], .titlebox .bottom, .side #moderation_tools .title .collapse-button, .md hr, .tabmenu, .md blockquote, .link .usertext .md, .RESDialogSmall > h3, #userTaggerClose, #BigText, .RESCloseButton, .linkinfo, .read-next .read-next-header, .read-next.fixed, #newlink-with-image-upload .image-upload-drop-target, .md code, .author-tooltip__head {
-    border-color: #333;
-	}
-
-    /* Black Text Color */
-    #cover-msg, #login .modal-title, #search #searchexpando label, #search input[type=text]:focus, #sr-header-area .drop-choices a.choice, .comment .author, .comment-visits-box .title, .commentarea .panestack-title .title, .commentingAs, .comments-page .side .linkinfo .score, .content.submit .info-notice, .delete-field td, .drop-choices a.choice, .dropdown.lightdrop .selected, .entry .buttons li.reported-stamp, .flairlist .header, .flat-vert.title, .generic-table, .hover-bubble, .hover-bubble.multi-selector strong, .linefield .upload, .linefield label, .linefield span, .link .entry .tagline a, .md blockquote, .md h1, .md h2, .md h3, .md h4, .md h5, .md h6, .md li, .md p, .md pre code, .md td, .md th, .menuarea, .nav-buttons .nextprev a, .post-sharing .post-sharing-main .c-form-group > .post-sharing-label, .reddit-infobar, .roundfield label, .search-page #previoussearch label, .side .md p, .side .spacer input, .status, .submit-page .roundfield .title, .subreddit-report-form .report-header, .subreddit-report-form .report-reason-item .report-reason-display, .subreddit-report-form, .subreddit-rule-form .form-group-kind label, .tabmenu li.selected a, .tabpane-content .flairrow a.author, .titlebox .users-online .number, .titlebox form.toggle.sr_style_toggle labe .titlebox form.flairtoggle, .usertext .markhelp td, .wiki-page .pageactions .wikiaction, .wiki-page .wiki-page-content #wiki_revision_reason, .wiki-page .wiki-page-content .description h2, .wiki-page .wiki-page-content .md.wiki h4, .wiki-page .wiki-page-content .wiki.md h2, .wiki-page .wiki-page-content em, .wiki-page .wikititle, .wiki-page-content .md h1, .wiki-page-content .md h3, .wiki-page-content .md h5, .wiki-page-content .md h6, body .content input[type=text]:focus, body .content input[type=url]:focus, body .content textarea:focus, code, input, label, p, select, ul#image-preview-list .description pre, ul#image-preview-list, small, #newlink-with-image-upload #image-name, .titlebox:before, #previoussearch p, dt, .combined-search-page .search-result-group .search-header-label, .combined-search-page .search-result-group .search-menu .dropdown.lightdrop .selected, .side #moderation_tools .title .collapse-button, ul.image-preview-list, .res #REScommentNavToggle, .RESSubscriptionButton, .RESDialogSmall > h3, #userTaggerClose, #userTaggerToolTip label, ul.res-search-tabs a, .viewSource textarea[readonly], #BigText, .RESCloseButton, .submit-page .roundfield span.title, .linkinfo, .read-next .read-next-header-title, .diff_header, .generic-table, ul.report-reasons li.report-reason-title, #newlink-with-image-upload .file-drop-label, .wiki-page .wiki-page-content .pagelisting, .action-reason, em, #newlink-with-image-upload #new-link-video-preview, #newlink-with-image-upload .media-post-upload-progress {
-        color: #E0E0E0;
-    }
-
-    /* Gray Text Color */
-    .bottommenu, .commentarea .menuarea .dropdown.lightdrop .selecte, .commentarea .menuarea .toggle a, .commentarea .menuarea span.dropdown-title.lightdrop, .comments-page .side .linkinfo .date, .entry .buttons li a, .entry .buttons li + li, .entry .buttons li, .entry .tagline, .flair, .gadget .score, .gold-accent.comment-visits-box, .gray, .linefield .title + .gray, .link .domain a, .linkinfo .shortlink, .md del, .nav-buttons .nextprev, .side #moderation_tools .title h1, .sidecontentbox .more a, .sidecontentbox .title h1, .tabmenu li a, .tagline .stickied-tagline, .top-page .menuarea, .usertext .bottom-area a, .usertext .bottom-area a.reddiquette, body .content input[type=url], dd, .combined-search-page .search-result .search-result-meta, span.age, .titlebox .bottom, ul.image-preview-list .description pre, .link .entry .buttons li .redditSingleClick, .keyNavAnnotation, .res .RESDashboardToggle, .linkinfo .totalvotes, .read-next .read-next-meta, td, .required-roundfield:before, #items-required, a.voteWeight {
-        color: #999;
-    }
-
-	/* Misc. Fix */
-	#newlink-with-image-upload #new-link-video-preview .video-preview-heading .video-cancel-button {
+.comments-page .commentarea .comment .comment, .comments-page .commentarea .comment .comment .comment .comment, .comments-page .commentarea .comment .comment .comment .comment .comment .comment, .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment .comment, .comments-page .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
     background-color: #1B1B1B !important;
-	}
+}
 
-	#newlink-with-image-upload #new-link-video-preview, #newlink-with-image-upload .media-post-upload-progress {
-    background-color: #222 !important;
-	}
+/* Border Color */
+#img-preview-container, #sr-header-area .drop-choices a.choice, .c-form-control, .comment .child, .comments-page .link .usertext .md, .drop-choices a.choice, .drop-choices a.choice, .dropdown.lightdrop .selected, .expando-button, .expando-button.image, .expando-button.selftext.collapsed, .expando-button.selftext.expanded, .expando-button.video.collapsed, .expando-button.video.expanded, .flairselector form, .flairselector.drop-choices.active, .gold-accent.comment-visits-box, .gold-wrap.inline-gold .fancy, .gold-wrap.inline-gold .fancy-inner, .hover-bubble, .hover-bubble.save-selector .savedcategory, .linefield.mobile, .link .md pre, .link .md:not(pre) > code, .login-form-side, .md p code, .md pre, .md td, .md th, .menuarea, .nav-buttons .nextprev a, .nav-buttons .nextprev, .new-comment .usertext-body, .post-sharing, .reddit-infobar, .res .RES-keyNav-activeElement, .side .spacer input, .subreddit-report-form, .usertable > .toggle, .usertext .markhelp td, .usertext .markhelp, .wiki-page .wiki-page-content #wiki_revision_reason, .wiki-page .wiki-page-content .wiki > .toc > ul ul, .wiki-page .wiki-page-content hr, body .content input[type=text], body .content input[type=url], body .content textarea, select, side .spacer input, ul.report-reasons, .hover-bubble.multi-selector .create-multi input[type="text"], .titlebox .bottom, .side #moderation_tools .title .collapse-button, .md hr, .tabmenu, .md blockquote, .link .usertext .md, .RESDialogSmall > h3, #userTaggerClose, #BigText, .RESCloseButton, .linkinfo, .read-next .read-next-header, .read-next.fixed, #newlink-with-image-upload .image-upload-drop-target, .md code, .author-tooltip__head {
+border-color: #333;
+}
 
-	a.voteWeight {
-    background-color: inherit !important;
-	}
+/* Black Text Color */
+#cover-msg, #login .modal-title, #search #searchexpando label, #search input[type=text]:focus, #sr-header-area .drop-choices a.choice, .comment .author, .comment-visits-box .title, .commentarea .panestack-title .title, .commentingAs, .comments-page .side .linkinfo .score, .content.submit .info-notice, .delete-field td, .drop-choices a.choice, .dropdown.lightdrop .selected, .entry .buttons li.reported-stamp, .flairlist .header, .flat-vert.title, .generic-table, .hover-bubble, .hover-bubble.multi-selector strong, .linefield .upload, .linefield label, .linefield span, .link .entry .tagline a, .md blockquote, .md h1, .md h2, .md h3, .md h4, .md h5, .md h6, .md li, .md p, .md pre code, .md td, .md th, .menuarea, .nav-buttons .nextprev a, .post-sharing .post-sharing-main .c-form-group > .post-sharing-label, .reddit-infobar, .roundfield label, .search-page #previoussearch label, .side .md p, .side .spacer input, .status, .submit-page .roundfield .title, .subreddit-report-form .report-header, .subreddit-report-form .report-reason-item .report-reason-display, .subreddit-report-form, .subreddit-rule-form .form-group-kind label, .tabmenu li.selected a, .tabpane-content .flairrow a.author, .titlebox .users-online .number, .titlebox form.toggle.sr_style_toggle labe .titlebox form.flairtoggle, .usertext .markhelp td, .wiki-page .pageactions .wikiaction, .wiki-page .wiki-page-content #wiki_revision_reason, .wiki-page .wiki-page-content .description h2, .wiki-page .wiki-page-content .md.wiki h4, .wiki-page .wiki-page-content .wiki.md h2, .wiki-page .wiki-page-content em, .wiki-page .wikititle, .wiki-page-content .md h1, .wiki-page-content .md h3, .wiki-page-content .md h5, .wiki-page-content .md h6, body .content input[type=text]:focus, body .content input[type=url]:focus, body .content textarea:focus, code, input, label, p, select, ul#image-preview-list .description pre, ul#image-preview-list, small, #newlink-with-image-upload #image-name, .titlebox:before, #previoussearch p, dt, .combined-search-page .search-result-group .search-header-label, .combined-search-page .search-result-group .search-menu .dropdown.lightdrop .selected, .side #moderation_tools .title .collapse-button, ul.image-preview-list, .res #REScommentNavToggle, .RESSubscriptionButton, .RESDialogSmall > h3, #userTaggerClose, #userTaggerToolTip label, ul.res-search-tabs a, .viewSource textarea[readonly], #BigText, .RESCloseButton, .submit-page .roundfield span.title, .linkinfo, .read-next .read-next-header-title, .diff_header, .generic-table, ul.report-reasons li.report-reason-title, #newlink-with-image-upload .file-drop-label, .wiki-page .wiki-page-content .pagelisting, .action-reason, em, #newlink-with-image-upload #new-link-video-preview, #newlink-with-image-upload .media-post-upload-progress {
+    color: #E0E0E0;
+}
 
-	#newlink-with-image-upload .image-upload-drop-target {
-	background-color: #1B1B1B !important;
-	border-color: #333 !important;
-	}
+/* Gray Text Color */
+.bottommenu, .commentarea .menuarea .dropdown.lightdrop .selecte, .commentarea .menuarea .toggle a, .commentarea .menuarea span.dropdown-title.lightdrop, .comments-page .side .linkinfo .date, .entry .buttons li a, .entry .buttons li + li, .entry .buttons li, .entry .tagline, .flair, .gadget .score, .gold-accent.comment-visits-box, .gray, .linefield .title + .gray, .link .domain a, .linkinfo .shortlink, .md del, .nav-buttons .nextprev, .side #moderation_tools .title h1, .sidecontentbox .more a, .sidecontentbox .title h1, .tabmenu li a, .tagline .stickied-tagline, .top-page .menuarea, .usertext .bottom-area a, .usertext .bottom-area a.reddiquette, body .content input[type=url], dd, .combined-search-page .search-result .search-result-meta, span.age, .titlebox .bottom, ul.image-preview-list .description pre, .link .entry .buttons li .redditSingleClick, .keyNavAnnotation, .res .RESDashboardToggle, .linkinfo .totalvotes, .read-next .read-next-meta, td, .required-roundfield:before, #items-required, a.voteWeight {
+    color: #999;
+}
 
-	.entry.RES-keyNav-activeElement, .entry.RES-keyNav-activeElement .md-container {
-    background-color: transparent !important;
-	}
+/* Misc. Fix */
+#newlink-with-image-upload #new-link-video-preview .video-preview-heading .video-cancel-button {
+background-color: #1B1B1B !important;
+}
 
-	.search-expando.collapsed:before {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #222 100%);
-	}
+#newlink-with-image-upload #new-link-video-preview, #newlink-with-image-upload .media-post-upload-progress {
+background-color: #222 !important;
+}
 
-	.viewSource textarea[readonly] {
-    background: repeating-linear-gradient(-225deg, #222222, transparent 40px, rgba(166, 166, 166, .1) 40px, rgb(34, 34, 34) 80px);
-	}
+a.voteWeight {
+background-color: inherit !important;
+}
 
-	.search-page #search input[type=text] {
-    color: #E0E0E0 !important;
+#newlink-with-image-upload .image-upload-drop-target {
+background-color: #1B1B1B !important;
+border-color: #333 !important;
+}
+
+.entry.RES-keyNav-activeElement, .entry.RES-keyNav-activeElement .md-container {
+background-color: transparent !important;
+}
+
+.search-expando.collapsed:before {
+background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #222 100%);
+}
+
+.viewSource textarea[readonly] {
+background: repeating-linear-gradient(-225deg, #222222, transparent 40px, rgba(166, 166, 166, .1) 40px, rgb(34, 34, 34) 80px);
+}
+
+.search-page #search input[type=text] {
+color: #E0E0E0 !important;
 }
 /* End Addon */
 
@@ -118,16 +118,16 @@ div.titlebox span.number:after {
 /* Buttons */
 .morelink, .side .titlebox .md h3 a, .drop-choices a.choice:hover, .submit-page #newlink.submit.content ul.tabmenu.formtab,
 .submit_text.enabled.roundfield, body .btn, body button, .content .infobar {
-    background-color: #282828;
+    background-color: #2d2d2d;
 }
 
-    .morelink:hover, .side .titlebox .md h3 a:hover, .btn:hover, body button:hover {
-        background-color: #f79b77;
-    }
+.morelink:hover, .side .titlebox .md h3 a:hover, .btn:hover, body button:hover {
+    background-color: #f79b77;
+}
 
-    .morelink:active, .side .titlebox .md h3 a:active, .btn:active, body button:active {
-        background-color: #c66107;
-    }
+.morelink:active, .side .titlebox .md h3 a:active, .btn:active, body button:active {
+    background-color: #c66107;
+}
 
 /* Links */
 .thing .title.loggedin.click, .thing .title.click, .thing .title.loggedin, .thing .title, .link .entry .buttons li a.comments,
@@ -196,7 +196,7 @@ div.titlebox span.number:after {
 
 /* My Addon: Remove Hyphen Before Flair */
 .flair:before {
-content: ""
+    content: ""
 }
 /* End Addon */
 
@@ -208,12 +208,14 @@ content: ""
 
 /* My Addon: Adjust Height of Upvotes Card to Accommodate Bigger Font */
 .comments-page .side .linkinfo, .other-discussions-page .side .linkinfo {
-height: 105px;
+    height: 105px;
 }
 /* End Addon */
 
 /* My Addon: Hide Submit Text Button */
-.morelink:after, .sidebox.submit.submit-text .morelink {display:none}
+.morelink:after, .sidebox.submit.submit-text .morelink {
+    display: none;
+}
 /* End Addon */
 
 /* My Addon: Custom Submit Button Text */
@@ -255,7 +257,7 @@ height: 105px;
 
 /* My Addon: Reduce Gap Between Submit Button & Upvotes Box on the Comments Page */
 .comments-page .side .linkinfo {
-top: 415px;
+    top: 415px;
 }
 /* End Addon */
 
@@ -268,34 +270,121 @@ top: 415px;
 /* END PROBLEMATIC PART */
 
 /* My Addon: Increase Font Size of Sidebar Buttons */
-.side .titlebox .md h3 a {
-    font-size: 15px;
+.side .titlebox .md h4 a {
+    color: #d0d0d0;
+    text-align: left;
+}
+/* End Addon */
+
+/* My Addon: Individual Sidebar Button Tweaks + Icons in Sidebar Buttons */
+
+/* Post a custom car button */
+.morelink:hover {
+    background-color: #2d2d2d;
+    box-shadow: 0px 3px 5px 0px rgb(238,172,78,0.50), 0 1px 4px 0 rgb(238,172,78,0.50), 0 0px 3px 0px rgb(238,172,78,0.70);
+}
+
+/* Set button colours, line height, and position: relative so that icons can be placed in :after as absolute */
+.side .titlebox .md h4 a {
+    position: relative;
+    text-align: left;
+    background: #2d2d2d;
+    color: #fff;
+    line-height: 48px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+/* Form button icon */
+.side .titlebox .md h4 a[href*="rlcd.github.io/form"]:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(%%button-form%%) no-repeat;
+    background-size: cover;
+    height: 48px;
+    width: 105px;
+}
+
+/* FAQ button icon */
+.side .titlebox .md h4 a[href*="https://bit.ly/"]:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(%%button-faq%%) no-repeat;
+    background-size: cover;
+    height: 48px;
+    width: 105px;
+}
+
+/* Discord button icon */
+.side .titlebox .md h4 a[href*="discord.gg"]:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(%%button-discord%%) no-repeat;
+    background-size: cover;
+    height: 48px;
+    width: 105px;
+}
+
+/* Item database (RLG) button icon */
+.side .titlebox .md h4 a[href*="rocket-league.com"]:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(%%button-rlg%%) no-repeat;
+    background-size: cover;
+    height: 48px;
+    width: 105px;
+}
+
+/* In-game views of items (Insider) button icon */
+.side .titlebox .md h4 a[href*="rl.insider.gg"]:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(%%button-insider%%) no-repeat;
+    background-size: cover;
+    height: 48px;
+    width: 105px;
+}
+
+/* Colour chart button icon */
+.side .titlebox .md h4 a[href*="imgur.com"]:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(%%button-color-chart%%) no-repeat;
+    background-size: cover;
+    height: 48px;
+    width: 105px;
+}
+
+.side .titlebox h4 a:hover {
+    box-shadow: 0px 3px 5px 0px rgb(238,172,78,0.50), 0 1px 4px 0 rgb(238,172,78,0.50), 0 0px 3px 0px rgb(238,172,78,0.70);
+    padding-left: 22px;
+    transition: 0.3s;
 }
 /* End Addon */
 
 /* My Addon: Hide Create Your Own Subreddit Button */
 .sidebox.create .morelink {
-display: none;
+    display: none;
 }
 /* End Addon */
-
-/* My Addon: Discord Image Link in Sidebar COMMENTED OUT TO DEACTIVATE
-.side a[href*="https://discord.gg/SpnVn8F"] {
-    content: "";
-    font-size: 0px;
-    display: inherit;
-    width: 288px;
-    height: 101px;
-    background: url(%%sidebardiscord%%);
-    opacity: 0.7;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
-}
-.side a[href*="https://discord.gg/SpnVn8F"]:hover {
-    opacity: 1;
-}
-End Addon */
 
 /* My Addon: Change Subscribe Button Background Colour */
 .titlebox .fancy-toggle-button .active.add {
@@ -305,7 +394,7 @@ End Addon */
 
 /* My Addon: Hide Subreddit Text Title in Header */
 #header .pagename {
-display: none;
+    display: none;
 }
 /* End Addon */
 
@@ -323,19 +412,9 @@ display: none;
 }
 /* End Addon */
 
-/* My Addon: Change Only Post Title Colour to White */
+/* My Addon: Change Post Title Colour to White */
 .thing .title.click, .thing .title.loggedin, .thing .title {
     color: #d0d0d0;
-}
-/* End Addon */
-
-/* My Addon: Discord Icon in Button */
-.side .md [href="https://discord.gg/SpnVn8F"]:before {
-    content: url(%%discord-button-icon%%);
-    display: inline-block;
-    margin-right: 8px;
-    margin-top: 1px;
-    vertical-align: middle;
 }
 /* End Addon */
 
@@ -348,7 +427,7 @@ display: none;
 /* My Addon: Restore the search bar to the sidebar than banner in default Naut */
 /* I don't know how this line affects RES/whether it's even necessary */
 body.res.search-page #search {
-position: absolute;
+    position: absolute;
 }
 .search-page #search {
     top: 217px;
@@ -378,25 +457,25 @@ div.thing {
 
 /* My Addon: Upvote Quick Chat Animation */
 .thing .upmod:focus::after {
-  content: "";
-  font-size: 12px;
-  font-weight: 700;
-  margin-left: 1px;
-  position: relative;
-  color: #eec8aa;
-  background-color: transparent;
-  bottom: 10px;
-  opacity: 0;
-  z-index: 1000!important;
-  -webkit-animation-name: exAn;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-timing-function: ease-out;
-  -webkit-animation-iteration-count: 1;
-  animation-name: exAn;
-  animation-duration: 2s;
-  animation-timing-function: ease-out;
-  animation-iteration-count: 1;
-  animation-play-state: running
+    content: "";
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 1px;
+    position: relative;
+    color: #eec8aa;
+    background-color: transparent;
+    bottom: 10px;
+    opacity: 0;
+    z-index: 1000!important;
+    -webkit-animation-name: exAn;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: 1;
+    animation-name: exAn;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-play-state: running
 }
 
 @-webkit-keyframes exAn {
@@ -454,155 +533,155 @@ div.thing {
 }
 
 f .thing[data-fullname$="a"]>.midcol>.upmod:focus::after {
-  content: "Nice shot!"
+    content: "Nice shot!"
 }
 
 .thing[data-fullname$="b"]>.midcol>.upmod:focus::after {
-  content: "Go for it!"
+    content: "Go for it!"
 }
 
 .thing[data-fullname$="c"]>.midcol>.upmod:focus::after {
-  content: "Thanks!"
+    content: "Thanks!"
 }
 
 .thing[data-fullname$="d"]>.midcol>.upmod:focus::after {
-  content: "Sorry!"
+    content: "Sorry!"
 }
 
 .thing[data-fullname$="e"]>.midcol>.upmod:focus::after {
-  content: "No problem."
+    content: "No problem."
 }
 
 .thing[data-fullname$="f"]>.midcol>.upmod:focus::after {
-  content: "Great pass!"
+    content: "Great pass!"
 }
 
 .thing[data-fullname$="g"]>.midcol>.upmod:focus::after {
-  content: "Wow!"
+    content: "Wow!"
 }
 
 .thing[data-fullname$="h"]>.midcol>.upmod:focus::after {
-  content: "Noooo!"
+    content: "Noooo!"
 }
 
 .thing[data-fullname$="i"]>.midcol>.upmod:focus::after {
-  content: "Whoops..."
+    content: "Whoops..."
 }
 
 .thing[data-fullname$="j"]>.midcol>.upmod:focus::after {
-  content: "Close one!"
+    content: "Close one!"
 }
 
 .thing[data-fullname$="k"]>.midcol>.upmod:focus::after {
-  content: "$#@%!"
+    content: "$#@%!"
 }
 
 .thing[data-fullname$="l"]>.midcol>.upmod:focus::after {
-  content: "OMG!"
+    content: "OMG!"
 }
 
 .thing[data-fullname$="m"]>.midcol>.upmod:focus::after {
-  content: "Centering!"
+    content: "Centering!"
 }
 
 .thing[data-fullname$="n"]>.midcol>.upmod:focus::after {
-  content: "Defending..."
+    content: "Defending..."
 }
 
 .thing[data-fullname$="o"]>.midcol>.upmod:focus::after {
-  content: "Take the shot!"
+    content: "Take the shot!"
 }
 
 .thing[data-fullname$="p"]>.midcol>.upmod:focus::after {
-  content: "I got it!"
+    content: "I got it!"
 }
 
 .thing[data-fullname$="q"]>.midcol>.upmod:focus::after {
-  content: "All yours."
+    content: "All yours."
 }
 
 .thing[data-fullname$="r"]>.midcol>.upmod:focus::after {
-  content: "Great clear!"
+    content: "Great clear!"
 }
 
 .thing[data-fullname$="s"]>.midcol>.upmod:focus::after {
-  content: "Incoming!"
+    content: "Incoming!"
 }
 
 .thing[data-fullname$="t"]>.midcol>.upmod:focus::after {
-  content: "My bad…"
+    content: "My bad…"
 }
 
 .thing[data-fullname$="u"]>.midcol>.upmod:focus::after {
-  content: "Nice one!"
+    content: "Nice one!"
 }
 
 .thing[data-fullname$="v"]>.midcol>.upmod:focus::after {
-  content: "Need boost!"
+    content: "Need boost!"
 }
 
 .thing[data-fullname$="w"]>.midcol>.upmod:focus::after {
-  content: "What a play!"
+    content: "What a play!"
 }
 
 .thing[data-fullname$="x"]>.midcol>.upmod:focus::after {
-  content: "Nice block!"
+    content: "Nice block!"
 }
 
 .thing[data-fullname$="y"]>.midcol>.upmod:focus::after {
-  content: "Savage!"
+    content: "Savage!"
 }
 
 .thing[data-fullname$="z"]>.midcol>.upmod:focus::after {
-  content: "In position."
+    content: "In position."
 }
 
 .thing[data-fullname$="1"]>.midcol>.upmod:focus::after {
-  content: "Calculated."
+    content: "Calculated."
 }
 
 .thing[data-fullname$="2"]>.midcol>.upmod:focus::after {
-  content: "No way!"
+    content: "No way!"
 }
 
 .thing[data-fullname$="3"]>.midcol>.upmod:focus::after {
-  content: "Holy cow!"
+    content: "Holy cow!"
 }
 
 .thing[data-fullname$="4"]>.midcol>.upmod:focus::after {
-  content: "What a save!"
+    content: "What a save!"
 }
 
 .thing[data-fullname$="5"]>.midcol>.upmod:focus:after {
-  content: "Whew."
+    content: "Whew."
 }
 
 .thing[data-fullname$="6"]>.midcol>.upmod:focus:after {
-  content: "Upvoting disabled for 3 seconds."
+    content: "Upvoting disabled for 3 seconds."
 }
 
 .thing[data-fullname$="7"]>.midcol>.upmod:focus:after {
-  content: "Okay."
+    content: "Okay."
 }
 
 .thing[data-fullname$="8"]>.midcol>.upmod:focus:after {
-  content: "Siiick!"
+    content: "Siiick!"
 }
 
 .thing[data-fullname$="9"]>.midcol>.upmod:focus:after {
-  content: "Oops!"
+    content: "Oops!"
 }
 
 .thing[data-fullname$="0"]>.midcol>.upmod:focus:after {
-  content: "My fault."
+    content: "My fault."
 }
 
 .thing .upmod:focus:after {
-  white-space: nowrap
+    white-space: nowrap
 }
 
 .midcol {
-  overflow: visible
+    overflow: visible
 }
 /* End Addon */
 
@@ -655,7 +734,7 @@ f .thing[data-fullname$="a"]>.midcol>.upmod:focus::after {
 }
 /* End Addon */
 
-/* My Addon: Hide the "choose where to post", "options", and disclaimers boxes the submit page */
+/* My Addon: Hide the "choose where to post", "options", and Disclaimers Boxes on the Submit Page */
 .submit-page #reddit-field, #items-required {
     display: none;
 }
@@ -665,16 +744,144 @@ f .thing[data-fullname$="a"]>.midcol>.upmod:focus::after {
 }
 /* End Addon */
 
-/* My Addon: Hide the Events and Collections promo box on the submit page */
+/* My Addon: Hide the Events and Collections Promo Box on the Submit Page */
 #evts-colls-promo-js {
     display: none !important;
 }
 /* End Addon */
 
-/* My Addon: Hide new reddit's button in the top header menu and the sidebar banner ad */
-/* DEACTIVATED: potentially against the rules, see https://redd.it/7jp4nq */
-/*
-.redesign-beta-optin, .premium-banner-outer {
-    display: none;
+/* My Addon: Add a "Curling Banner" Background to the Sidebar Titles */
+.titlebox .md h2 {
+    background-color: #614E33 !important;
+    width: 328px;
+    color: #fff!important;
+    margin: 10px 13px 15px -24px !important;
+    padding: 5px 0 5px 22px;
+    z-index: 100;
 }
+
+.titlebox .md h2:after {
+    display: block;
+    content: "";
+    border-color: transparent rgba(210, 133, 18, 0.32) transparent transparent !important;
+    border-style: solid;
+    border-width: 15px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    z-index: -1;
+    margin: -10px 0 0 -37px;
+}
+/* End Addon */
+
+/* My Addon: Customise the FAQ Wiki Page */
+
+/* FAQ Title */
+h1#wiki_faq {
+    position: relative;
+    margin-bottom: 120px;
+}
+
+h1#wiki_faq:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(%%wiki-faq%%) no-repeat;
+    background-size: cover;
+    height: 144px;
+    width: 290px;
+    top: 0;
+    left: 0;
+}
+
+/* Separators */
+/* In the markup, this is [&nbsp;](#separator) */
+.wiki-page-content [href*="#separator"] {
+    position: relative;
+}
+
+.wiki-page-content [href*="#separator"]:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(%%separator%%) no-repeat;
+    background-size: cover;
+    height: 4px;
+    width: 500px;
+    top: 0;
+    left: 0;
+}
+
+/* H2 Margins (Section Headings e.g. "About Us") */
+.wiki-page-content .md h2 {
+    margin: 0.625em 0 0.625em;
+}
+
+/* <Strong> Colours (Questions e.g. "What is RL Custom Designs?"") */
+.wiki-page-content .md strong {
+    color: #EFAC4E;
+}
+/* End Addon */
+
+/* My Addon: Subreddit Rules on Hover */
+
+.side .md blockquote {
+    background: transparent;
+    border: none;
+    margin: 10px 0 10px -7px;
+}
+
+.side .md blockquote h5 {
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.side .md blockquote h5:hover {
+    color: #EFAC4E;
+    cursor: help;
+    transition: 0.3s;
+}
+/*
+For this to work, the sidebar markdown must be:
+
+#
+> ##### II. Rule goes here
+Extended info for the hover box goes here
+
+Note the "#" above the blockquote, this must be there to separate each rule from the next
+Otherwise, hovering over one rule will make all the hovers appear
 */
+
+.side .md blockquote h5+p {
+    position: absolute;
+    display: none;
+    padding: 0 10px;
+    color: #EFAC4E;
+}
+
+.side .md blockquote:hover h5+p {
+    display: block;
+    width: 330px;
+    height: auto;
+    margin: -30px 0 0 -340px;
+    padding: 10px 20px 10px 50px;
+    background: linear-gradient(to left, transparent 9px, rgba(0, 0, 0, .99) 9px, rgba(0, 0, 0, .75) 90%, rgba(0, 0, 0, 0) 100%);
+    z-index: 100;
+}
+/* End Addon */
+
+/* My Addon: Make the Text in the Report Window Readable */
+.report-reason-display, .report-form-content-policy p {
+    color: #d0d0d0 !important;
+}
+
+.report-form-content-policy a {
+    color: #24a0ed !important;
+}
+/* End Addon */
+
+/* My Addon: Make the Author Name in the User Hover Card Readable */
+.author-tooltip__head h3 {
+    color: #d0d0d0;
+}
+/* End Addon */

@@ -24,6 +24,9 @@ Based on Naut (see [r/Naut](reddit.com/r/Naut) for more details).
 * Dark mode.
 * Subreddit link in the logo.
 * Rocket League quick chat upvote animation.
+* Button icons.
+* Read more for rules in the sidebar on hover.
+* Formatted wiki FAQ page with images and separators inserted in the body using CSS.
 
 [<sub><sup>Back to top</sup></sub>](#rlcustomdesigns-css)
 
@@ -34,7 +37,7 @@ Based on Naut (see [r/Naut](reddit.com/r/Naut) for more details).
 You must be a moderator to be able to edit CSS.
 
 1. Go to `reddit.com/r/RLCustomDesigns/about/stylesheet`.
-2. Upload all the images in the `images` folder. Make sure the names are unchanged.
+2. Upload all the images in the `Images to Upload` folder. Make sure the names are unchanged.
 3. Copy the contents of `style.css` into the space there.
 4. Save.
 
@@ -87,7 +90,8 @@ Pull requests are welcome! If you've got ideas or feature requests, please feel 
 * **u/GetSchwiftyClub** for help with testing.
 * **u/DBaum1** for help with testing.
 * [**r/RocketLeague**](https://reddit.com/r/RocketLeague) for the upvote quick chat animation CSS.
+* [**r/Tautulli**](https://reddit.com/r/Tautulli) for the slanted button style.
 
 [<sub><sup>Back to top</sup></sub>](#rlcustomdesigns-css)
 
-**Last Updated: 1 August 2019**
+**Last Updated: 22 November 2019**
