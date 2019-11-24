@@ -1,8 +1,8 @@
 /*
-    RLCustomDesigns Stylesheet 2.0
+    RLCustomDesigns Stylesheet 2.1
     Stylesheet by /u/SidewinderN7
     Based on Naut 4.2
-    Last modified: 22 November 2019
+    Last modified: 24 November 2019
 -------------------------------------------------------------------------- */
 
 /*
@@ -269,13 +269,6 @@ div.titlebox span.number:after {
 
 /* END PROBLEMATIC PART */
 
-/* My Addon: Increase Font Size of Sidebar Buttons */
-.side .titlebox .md h4 a {
-    color: #d0d0d0;
-    text-align: left;
-}
-/* End Addon */
-
 /* My Addon: Individual Sidebar Button Tweaks + Icons in Sidebar Buttons */
 
 /* Post a custom car button */
@@ -373,7 +366,7 @@ div.titlebox span.number:after {
     width: 105px;
 }
 
-.side .titlebox h4 a:hover {
+.side .titlebox .md h4 a:hover {
     box-shadow: 0px 3px 5px 0px rgb(238,172,78,0.50), 0 1px 4px 0 rgb(238,172,78,0.50), 0 0px 3px 0px rgb(238,172,78,0.70);
     padding-left: 22px;
     transition: 0.3s;
