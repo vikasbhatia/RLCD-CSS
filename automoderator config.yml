@@ -1,0 +1,57 @@
+type: submission
+title: "[Octane] [Standard] [OEM]"
+action: remove
+moderators_exempt: false
+comment: |
+    This submission has been removed.
+    
+    **Reason:** this is a stock Octane design similar to ones that have been identified as spam in the past.
+---
+type: comment
+body (includes): ["https://git.io/fjpio"]
+action: remove
+moderators_exempt: false
+---
+type: comment
+body (includes): ["what is this", "called?", "name of this", "name?", "what car", "what body", "what decal", "what topper", "what boost", "what wheel", "what wheels", "body?", "car?", "decal?", "topper?", "boost?", "wheel?", "wheels?"]
+comment: |
+    If you are looking to identify the items needed to create this design, they are listed in the post title. Our title format is `[Body] [Decal] [Topper] [Boost] [Wheels]`. The comment lists the paint finishes and colours used (e.g. A1), which correspond to the colour chart linked in the subreddit's sidebar.
+    
+    For further information, [please read our FAQ.](https://www.reddit.com/r/RLCustomDesigns/wiki/index)
+---
+type: comment
+body (includes): ["blue team", "blue side", "orange team", "orange side", "other team", "other side"]
+comment: |
+    If you are asking for a complementary design for the other team, please tag the user who submitted this and check if they have made one. Their name is listed next to "Design Submitted By:" on this post. Leaving a comment without tagging anyone only notifies the bot that made this post, not the human who created the design. You may also use the form link which opens the form pre-populated with what you see here, and try tweaking it to create something for the other team yourself.
+    
+    For further information, [please read our FAQ.](https://www.reddit.com/r/RLCustomDesigns/wiki/index)
+---
+type: submission
+title (includes): ["Efflux"]
+moderators_exempt: false
+comment: "**PLEASE NOTE:** this design may not look the same in-game, especially if the accent colour is dark. This is because BakkesMod is able to apply an accent colour to the Efflux decal, even though that option is unavailable in its colour palette. See [this post](https://redd.it/eb1pww) for more details."
+comment_stickied: true
+---
+type: submission
+title (includes): ["Labyrinth"]
+moderators_exempt: false
+comment: "**PLEASE NOTE:** unless the accent colour is black (G1), you will not be able to recreate this design in-game. This is because BakkesMod is able to apply an accent colour to the Labyrinth decal, even though that option is unavailable in its colour palette."
+comment_stickied: true
+---
+type: submission
+title (includes): ["Biomass"]
+moderators_exempt: false
+comment: "**PLEASE NOTE:** unless the accent colour is black (G1), you will not be able to recreate this design in-game. This is because BakkesMod is able to apply an accent colour to the Biomass decal, even though that option is unavailable in its colour palette."
+comment_stickied: true
+---
+type: submission
+title (includes): ["Batmobile", "Tumbler", "Jeep", "McLaren", "DeLorean", "Ecto-1"]
+moderators_exempt: false
+comment: "**PLEASE NOTE:** this design uses premium licensed items that allow little to no customisation, which could lead to unexpected results."
+comment_stickied: true
+---
+type: submission
+title (includes): ["Cloud9", "G2", "Ghost", "NRG", "Vitality", "Spacestation", "eUnited", "Rogue", "Pittsburgh", "TSM", "Dignitas", "Reciprocity", "Veloce", "Mousesports"]
+moderators_exempt: false
+comment: "**PLEASE NOTE:** this design uses esports shop items whose colours are fixed, regardless of the team."
+comment_stickied: true
