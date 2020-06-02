@@ -26,7 +26,7 @@ moderators_exempt: false
 type: comment
 body (includes): ["what is this", "called?", "name of this", "name?", "what car", "what body", "what decal", "what topper", "what boost", "what wheel", "what wheels", "body?", "car?", "decal?", "topper?", "boost?", "wheel?", "wheels?"]
 comment: |
-    If you're trying to identify the items needed to create this design, they're listed in the post title. Our title format is `[Body] [Decal] [Topper] [Boost] [Wheels]`. If a slot isn't filled on the car (e.g. there's no topper), then it's not listed in the title. There's a comment by RLCD-Bot on this post that lists the paint finishes and colours used (e.g. A1), which you can look up in our [colour chart](https://imgur.com/44FhFk2) (also linked in the sidebar).
+    If you're trying to identify the items needed to create this design, they're listed in the post title. Our title format is `[Body] [Decal] [Topper] [Boost] [Wheels]`. If a slot isn't filled (e.g. there's no topper), then it's not included in the title.
     
     For further information, [please read our FAQ.](https://www.reddit.com/r/RLCustomDesigns/wiki/index) Thank you!
 ---
@@ -80,7 +80,7 @@ comment_stickied: true
 type: submission
 title (includes): ["GA-819 HB"]
 moderators_exempt: false
-comment: "**PLEASE NOTE:** the wheels you see in this post (GA-819 HB) were an unreleased redeemable reward as part of a promotion with BRISK when they were an RLCS sponsor. As far as we know, the promotion was cancelled and so these wheels were never made available to the public. They continue to be included in the game files and are usable only via BakkesMod."
+comment: "**PLEASE NOTE:** the wheels you see in this post (GA-819 HB) were an unreleased redeemable reward as part of a promotion with BRISK, a former RLCS sponsor. As far as we know, the promotion was cancelled and so these wheels were never made available to the public. They continue to be included in the game files and are usable only via BakkesMod."
 comment_stickied: true
 ---
 # Pin a comment on season reward decal posts explaining that the colour gets affected by BakkesMod
