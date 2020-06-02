@@ -1,3 +1,12 @@
+# Automatically remove posts that receive 2 reports and leave a comment explaining that it was removed
+reports: 2
+action: remove
+comment: |
+    This submission has been removed.
+    
+    **Reason:** This post has received 2 reports, which triggered an AutoModerator condition.
+---
+# Remove Stocktanes that were not already caught by our script
 type: submission
 title: "[Octane] [Standard] [OEM]"
 action: remove
@@ -7,51 +16,102 @@ comment: |
     
     **Reason:** this is a stock Octane design similar to ones that have been identified as spam in the past.
 ---
+# Remove the comment that goes with Stocktane posts as well to keep things clean
 type: comment
 body (includes): ["https://git.io/fjpio"]
 action: remove
 moderators_exempt: false
 ---
+# Respond to people asking what the items in the post are, telling them how to identify them
 type: comment
 body (includes): ["what is this", "called?", "name of this", "name?", "what car", "what body", "what decal", "what topper", "what boost", "what wheel", "what wheels", "body?", "car?", "decal?", "topper?", "boost?", "wheel?", "wheels?"]
 comment: |
-    If you are looking to identify the items needed to create this design, they are listed in the post title. Our title format is `[Body] [Decal] [Topper] [Boost] [Wheels]`. The comment lists the paint finishes and colours used (e.g. A1), which correspond to the colour chart linked in the subreddit's sidebar.
+    If you're trying to identify the items needed to create this design, they're listed in the post title. Our title format is `[Body] [Decal] [Topper] [Boost] [Wheels]`. If a slot isn't filled on the car (e.g. there's no topper), then it's not listed in the title. There's a comment by RLCD-Bot on this post that lists the paint finishes and colours used (e.g. A1), which you can look up in our [colour chart](https://imgur.com/44FhFk2) (also linked in the sidebar).
     
-    For further information, [please read our FAQ.](https://www.reddit.com/r/RLCustomDesigns/wiki/index)
+    For further information, [please read our FAQ.](https://www.reddit.com/r/RLCustomDesigns/wiki/index) Thank you!
 ---
+# Respond to people asking to buy/sell/trade items
 type: comment
-body (includes): ["blue team", "blue side", "orange team", "orange side", "other team", "other side"]
+body (includes): ["buy", "sell", "sale", "trade", "how much for", "how much is", "how many credits", "what would you take for", "what will you take for"]
 comment: |
-    If you are asking for a complementary design for the other team, please tag the user who submitted this and check if they have made one. Their name is listed next to "Design Submitted By:" on this post. Leaving a comment without tagging anyone only notifies the bot that made this post, not the human who created the design. You may also use the form link which opens the form pre-populated with what you see here, and try tweaking it to create something for the other team yourself.
+    If you're asking to buy/sell/trade items, please know that the items you see in this post are not real (they're created via BakkesMod), OP is a bot, and RL Custom Designs is not a trading subreddit. To trade, we suggest checking out r/RocketLeagueExchange.
     
-    For further information, [please read our FAQ.](https://www.reddit.com/r/RLCustomDesigns/wiki/index)
+    To know more about what this subreddit is and how it works, [please read our FAQ.](https://www.reddit.com/r/RLCustomDesigns/wiki/index) Thank you!
 ---
+# Respond to people asking what the colour palette codes (e.g. A1) mean
+type: comment
+~author: RLCD-Bot
+body (includes, regex): "[A-G]([1-9]|1[0-5])"
+comment: |
+    If you're asking what the colour codes (e.g. A1) mean, please see our [colour chart](https://imgur.com/44FhFk2) (also linked in the sidebar).
+    
+    For further information, [please read our FAQ.](https://www.reddit.com/r/RLCustomDesigns/wiki/index) Thank you!
+---
+# Respond to people asking for the opposite team's design
+type: comment
+body (includes): ["blue team", "blue side", "blue version", "orange team", "orange side", "orange version", "other team", "other side"]
+comment: |
+    If you're looking for a complementary design for the other team, please tag the user who submitted this and ask them if they have made one. Their name is listed next to "Design Submitted By:" on this post. Leaving a comment without tagging anyone only notifies the bot that made this post, not the human who created the design. You may also use the form link which opens the form with the design you see here, and try tweaking it to create something for the other team yourself.
+    
+    For further information, [please read our FAQ.](https://www.reddit.com/r/RLCustomDesigns/wiki/index) Thank you!
+---
+# Pin a comment on Efflux submissions explaining how the accent works
 type: submission
 title (includes): ["Efflux"]
 moderators_exempt: false
 comment: "**PLEASE NOTE:** this design may not look the same in-game, especially if the accent colour is dark. This is because BakkesMod is able to apply an accent colour to the Efflux decal, even though that option is unavailable in its colour palette. See [this post](https://redd.it/eb1pww) for more details."
 comment_stickied: true
 ---
+# Pin a comment on Labyrinth posts explaining how the accent works
 type: submission
 title (includes): ["Labyrinth"]
 moderators_exempt: false
 comment: "**PLEASE NOTE:** unless the accent colour is black (G1), you will not be able to recreate this design in-game. This is because BakkesMod is able to apply an accent colour to the Labyrinth decal, even though that option is unavailable in its colour palette."
 comment_stickied: true
 ---
+# Pin a comment on Biomass posts explaining how the accent works
 type: submission
 title (includes): ["Biomass"]
 moderators_exempt: false
 comment: "**PLEASE NOTE:** unless the accent colour is black (G1), you will not be able to recreate this design in-game. This is because BakkesMod is able to apply an accent colour to the Biomass decal, even though that option is unavailable in its colour palette."
 comment_stickied: true
 ---
+# Pin a comment on posts with the GA-819 HB wheel explaining where it came from
+type: submission
+title (includes): ["GA-819 HB"]
+moderators_exempt: false
+comment: "**PLEASE NOTE:** the wheels you see in this post (GA-819 HB) were an unreleased redeemable reward as part of a promotion with BRISK when they were an RLCS sponsor. As far as we know, the promotion was cancelled and so these wheels were never made available to the public. They continue to be included in the game files and are usable only via BakkesMod."
+comment_stickied: true
+---
+# Pin a comment on season reward decal posts explaining that the colour gets affected by BakkesMod
+type: submission
+title (regex): ^\[.?\] \[Season .*\]$
+moderators_exempt: false
+comment: "**PLEASE NOTE:** this design may not look the same in-game, because it uses a season 12 reward decal whose colours are affected by BakkesMod. Even though the colours are supposed to be fixed, BakkesMod overrides them and applies the colours submitted in the form. Fixing this is on our roadmap for the future."
+comment_stickied: true
+---
+# Pin a comment on DLC car posts explaining how they can't be customised
 type: submission
 title (includes): ["Batmobile", "Tumbler", "Jeep", "McLaren", "DeLorean", "Ecto-1"]
 moderators_exempt: false
-comment: "**PLEASE NOTE:** this design uses premium licensed items that allow little to no customisation, which could lead to unexpected results."
+comment: "**PLEASE NOTE:** this design uses premium licensed cars/items that allow little to no customisation, which could lead to unexpected results."
 comment_stickied: true
 ---
+# Pin a comment on esports posts explaining how the decals retain the same colour on either team
+# Note the ": Veloce" to ensure that it's the esports item triggering this rule, preventing false positives from the Veloce wheel
 type: submission
-title (includes): ["Cloud9", "G2", "Ghost", "NRG", "Vitality", "Spacestation", "eUnited", "Rogue", "Pittsburgh", "TSM", "Dignitas", "Reciprocity", "Veloce", "Mousesports"]
+title (includes): ["Cloud9", "G2 Esports", "Ghost Gaming", "NRG Esports", "Team Vitality", "Spacestation Gaming", "eUnited", "Rogue", "Pittsburgh Knights", "TSM", "Dignitas", "Reciprocity", ": Veloce", "Mousesports"]
 moderators_exempt: false
 comment: "**PLEASE NOTE:** this design uses esports shop items whose colours are fixed, regardless of the team."
 comment_stickied: true
+---
+# Alert the moderators that content on their subreddit has been linked to from elsewhere on reddit
+author: [TotesMessenger, Totes_Meta_Bot]
+body (regex): "\\[/r/(\\w+)\\] \\[(.+)\\]\\(http://np\\.(reddit\\.com/\\S+)\\b/\\)"
+action: remove
+modmail_subject: An RL Custom Designs Post Was Linked Elsewhere on Reddit
+modmail: |
+    The following thread in r/{{subreddit}} has been linked to in r/{{match-body-2}}:
+    **Title:** [{{title}}]({{permalink}}&context=5)
+    **Crosspost:** [{{match-body-3}}](https://{{match-body-4}})
+    ^(*Meta post detection by u/{{author}}*)

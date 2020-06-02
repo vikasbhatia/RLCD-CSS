@@ -327,6 +327,19 @@ div.titlebox span.number:after {
     width: 105px;
 }
 
+/* Donate button icon */
+.side .titlebox .md h4 a[href*="reddit.com/message"]:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(%%button-donate%%) no-repeat;
+    background-size: cover;
+    height: 48px;
+    width: 105px;
+}
+
 /* Item database (RLG) button icon */
 .side .titlebox .md h4 a[href*="rocket-league.com"]:after {
     content: "";
