@@ -34,16 +34,16 @@ comment: |
 type: comment
 body (includes): ["buy", "sell", "sale", "trade", "how much for", "how much is", "how many credits", "what would you take for", "what will you take for"]
 comment: |
-    If you're asking to buy/sell/trade items, please know that the items you see in this post are not real (they're created via BakkesMod), OP is a bot, and RL Custom Designs is not a trading subreddit. To trade, we suggest checking out r/RocketLeagueExchange.
+    If you're asking about buying/selling/trading items, you should know that the items you see in this post are not real (they're created via BakkesMod), the OP (u/RLCD-Bot) is a bot and won't be able to understand or respond to offers, and RL Custom Designs is not a trading subreddit. To trade, we suggest checking out r/RocketLeagueExchange. If you're negotiating a trade with another user in the comments and are triggering AutoModerator because of this, please ignore this message or ask u/SidewinderN7 to remove this comment.
     
     To know more about what this subreddit is and how it works, [please read our FAQ.](https://www.reddit.com/r/RLCustomDesigns/wiki/index) Thank you!
 ---
 # Respond to people asking what the colour palette codes (e.g. A1) mean
 type: comment
 ~author: RLCD-Bot
-body (includes, regex): "[A-G]([1-9]|1[0-5])"
+body (includes, regex): "\b[A-G]([1-9]|1[0-5])\b"
 comment: |
-    If you're asking what the colour codes (e.g. A1) mean, please see our [colour chart](https://imgur.com/44FhFk2) (also linked in the sidebar).
+    If you're asking what the colour codes (e.g. A1) mean, please see our [colour chart](https://imgur.com/44FhFk2) (also linked in the sidebar). If this message was triggered by accident, please ignore it or ask u/SidewinderN7 to remove this comment.
     
     For further information, [please read our FAQ.](https://www.reddit.com/r/RLCustomDesigns/wiki/index) Thank you!
 ---
@@ -53,7 +53,7 @@ body (includes): ["blue team", "blue side", "blue version", "orange team", "oran
 comment: |
     If you're looking for a complementary design for the other team, please tag the user who submitted this and ask them if they have made one. Their name is listed next to "Design Submitted By:" on this post. Leaving a comment without tagging anyone only notifies the bot that made this post, not the human who created the design. You may also use the form link which opens the form with the design you see here, and try tweaking it to create something for the other team yourself.
     
-    For further information, [please read our FAQ.](https://www.reddit.com/r/RLCustomDesigns/wiki/index) Thank you!
+    If you've already read this message and have already tagged someone, or if this was triggered by accident, please ignore it or ask u/SidewinderN7 to remove this comment. For further information, [please read our FAQ.](https://www.reddit.com/r/RLCustomDesigns/wiki/index) Thank you!
 ---
 # Pin a comment on Efflux submissions explaining how the accent works
 type: submission
@@ -74,6 +74,13 @@ type: submission
 title (includes): ["Biomass"]
 moderators_exempt: false
 comment: "**PLEASE NOTE:** unless the accent colour is black (G1), you will not be able to recreate this design in-game. This is because BakkesMod is able to apply an accent colour to the Biomass decal, even though that option is unavailable in its colour palette."
+comment_stickied: true
+---
+# Pin a comment on Fancy Formal submissions explaining how the accent works
+type: submission
+title (includes): ["Fancy Formal"]
+moderators_exempt: false
+comment: "**PLEASE NOTE:** Fancy Formal is a unique black and white decal, but due to BakkesMod's ability to override its colours, (even though this option is unavailable in the game), it may lead to unexpected results with our bot. To re-create the look of Fancy Formal, choose Grassy paint finish + the darkest blue (G8) for your primary, and Glossy + white (A1) for the accent. This makes it look nearly indistinguishable from the original decal. You may use the form link below in the comment by RLCD Bot as a shortcut to re-open this build, make these tweaks, and re-submit your request."
 comment_stickied: true
 ---
 # Pin a comment on posts with the GA-819 HB wheel explaining where it came from
@@ -115,3 +122,11 @@ modmail: |
     **Title:** [{{title}}]({{permalink}}&context=5)
     **Crosspost:** [{{match-body-3}}](https://{{match-body-4}})
     ^(*Meta post detection by u/{{author}}*)
+---
+# Remove the post if u/Karsten130 or u/anohre comments ".remove" on it, he asked for this to protect his design competition submissions from other people stealing them. AutoMod removal will make it disappear from the reddit feed, but the direct link will still work.
+author: [karsten130, anohre]
+type: comment
+body (full-exact): ".remove"
+action: remove
+parent_submission:
+    action: remove
