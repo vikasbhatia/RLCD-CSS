@@ -169,6 +169,24 @@ div.titlebox span.number:after {
     color: #e06d08;
 }
 
+.flair.flair-contributor {
+    background: #1f1f1f;
+    border: #1f1f1f;
+    color: #bc6ce9;
+}
+
+.flair.flair-donator {
+    background: #1f1f1f;
+    border: #1f1f1f;
+    color: #b99658;
+}
+
+.flair.flair-patron {
+    background: #1f1f1f;
+    border: #1f1f1f;
+    color: #FF424D;
+}
+
 .flair.flair-sidewinder {
     background: #1f1f1f;
     border: #1f1f1f;
@@ -335,6 +353,58 @@ div.titlebox span.number:after {
     right: 0;
     top: 0;
     background: url(%%button-donate%%) no-repeat;
+    background-size: cover;
+    height: 48px;
+    width: 105px;
+}
+
+/* Patreon button icon */
+.side .titlebox .md h4 a[href*="patreon.com"]:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(%%button-patreon%%) no-repeat;
+    background-size: cover;
+    height: 48px;
+    width: 105px;
+}
+
+/* PayPal button icon */
+.side .titlebox .md h4 a[href*="paypal.me"]:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(%%button-paypal%%) no-repeat;
+    background-size: cover;
+    height: 48px;
+    width: 105px;
+}
+
+/* Buy Me a Coffee button icon */
+.side .titlebox .md h4 a[href*="buymeacoffee.com"]:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(%%button-buy-me-a-coffee%%) no-repeat;
+    background-size: cover;
+    height: 48px;
+    width: 105px;
+}
+
+/* Instagram button icon */
+.side .titlebox .md h4 a[href*="instagram.com"]:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(%%button-instagram%%) no-repeat;
     background-size: cover;
     height: 48px;
     width: 105px;
@@ -780,10 +850,10 @@ f .thing[data-fullname$="a"]>.midcol>.upmod:focus::after {
 }
 /* End Addon */
 
-/* My Addon: Customise the FAQ Wiki Page */
+/* My Addon: Customise the Wiki Pages */
 
-/* FAQ Title */
-h1#wiki_faq {
+/* Page Titles */
+h1#wiki_faq, h1#wiki_support_us {
     position: relative;
     margin-bottom: 120px;
 }
@@ -796,6 +866,18 @@ h1#wiki_faq:after {
     background-size: cover;
     height: 144px;
     width: 290px;
+    top: 0;
+    left: 0;
+}
+
+h1#wiki_support_us:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(%%wiki-support-us%%) no-repeat;
+    background-size: cover;
+    height: 144px;
+    width: 360px;
     top: 0;
     left: 0;
 }
